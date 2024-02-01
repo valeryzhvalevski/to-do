@@ -41,6 +41,7 @@ ulList.addEventListener('click', function(event) {
 selectOption.addEventListener('change', function() {
     const lis = ulList.querySelectorAll('li');
     lis.forEach(function(li) {
+            li.style.display = 'block'; // Показываем все элементы перед сортировкой
 
         switch (selectOption.value) {
             case 'active':

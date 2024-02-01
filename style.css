@@ -1,0 +1,24 @@
+li {
+    display: block;
+}
+
+.class-active {
+    background-color: #4780fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #56fa47;
+}
+
+.deleted-item {
+    background-color: #fa4747; 
+}
+
+.btn-plus, .btn-minus {
+    cursor: pointer;
+    margin-left: 10px;
+}

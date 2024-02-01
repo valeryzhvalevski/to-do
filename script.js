@@ -41,8 +41,7 @@ ulList.addEventListener('click', function(event) {
 selectOption.addEventListener('change', function() {
     const lis = ulList.querySelectorAll('li');
     lis.forEach(function(li) {
-            li.style.display = 'block'; // Показываем все элементы перед сортировкой
-
+        li.style.display = 'block'; 
         switch (selectOption.value) {
             case 'active':
                 if (li.classList.contains('completed') || li.classList.contains('deleted-item')) {
